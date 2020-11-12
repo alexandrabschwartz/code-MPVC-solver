@@ -20,8 +20,8 @@ function options = setupMPVC_defaultOptions(options)
 %%
 
 if isempty(options)
-    options.objectivegradient = [];
-    options.constraintsjacobian = [];
+    options.objectiveGradient = [];
+    options.constraintsJacobian = [];
     options.NLPsolver = [];
     options.algorithm = [];
     options.relaxation = [];
